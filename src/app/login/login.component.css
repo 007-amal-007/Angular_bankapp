@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    font-family: 'Noto Sans Display', sans-serif;
+    margin: 0;
+}
+nav
+{
+    background-color: red;
+    width: auto;
+}
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+.Signup-wrapper
+{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: rgba(3, 3, 248, 0.308) 0px 7px 29px 0px;
+}
+.Signup-wrapper .Signup-inputs
+{
+    padding-top: 8px;
+}
+.Signup-wrapper .Signup-inputs input
+{
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5rem;
+    border: 1px solid rgba(57, 70, 250, 0.24);
+    outline: none;
+    box-shadow: rgba(174, 194, 211, 0.6) 0px 2px 8px 0px;
+}
+.Signup-wrapper fieldset
+{
+    border: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    color: #1c92d2;
+}
+.Signup-wrapper .Button-wrapper
+.btn-grad 
+{
+    background-image: linear-gradient(to right, #1c92d2 0%, #beeef8  51%, #1c92d2  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 6px 13px;
+   text-align: center;
+   text-transform: capitalize;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5rem;
+   border: none;
+   outline: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.Signup-wrapper span
+{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
